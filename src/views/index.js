@@ -1,0 +1,6 @@
+export { default as About } from "./About"
+export { default as Account } from "./Account"
+export { default as Home } from "./Home"
+export { default as PageNotFound } from "./PageNotFound"
+export { default as Settings } from "./Settings"
+export { default as Support } from "./Support"

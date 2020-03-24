@@ -1,0 +1,17 @@
+@media (max-width: 767px) {
+  :root {
+    --calendarTileHeight: calc((7vh - calc(var(--inputHeight) / 6)));
+  }
+  
+  .react-calendar__month-view .react-calendar__tile abbr {
+    flex-grow: 1;
+    position: relative;
+    top: 2px;
+    left: 0;
+    float: none;
+    margin: 0 auto 4px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

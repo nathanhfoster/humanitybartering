@@ -1,0 +1,28 @@
+.listItem {
+    background: rgba(0, 0, 0, 0.7);
+    width: calc(100% + 15px);
+    padding: 0 6px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.listItem:hover {
+    /* border-color: var(--accentColor); */
+    background: rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+}
+
+a.list-group-item .list-group-item-heading, button.list-group-item .list-group-item-heading, .list-group-item-text {
+    color: var(--tertiarycolor);
+}
+
+.EventColorLabelContainer {
+    width: 8px;
+    height: 8px;
+    flex-shrink: 0;
+    display: inline-block;
+    margin-right: 6px;
+    border-radius: 100%;
+}

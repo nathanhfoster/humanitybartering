@@ -1,0 +1,15 @@
+.dropdown-item {
+  color: var(--secondaryColor);
+}
+
+.dropdown-item:hover {
+  color: var(--accentColor);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: inherit !important;
+}
+
+.dropdown-item:hover {
+  background-color: var(--primaryColor) !important;
+}
